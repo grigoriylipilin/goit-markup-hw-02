@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-logo {
+
+}
+
+.nav-studio {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #2e2f42;
+}
+
+.nav-studio:hover, .nav-studio:focus {
+        color: #404bbf;
+}
+
+.nav-studio:active { 
+        color: #404bbf;
+}
+
+.nav-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.nav-portfolio:hover, .nav-portfolio:focus {
+    color: #404bbf;
+}
+
+.nav-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.nav-contacts:hover, .nav-contacts:focus {
+    color: #404bbf;
+}
+
+.contacts-malito {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.contacts-malito:hover, .contacts-malito:focus {
+    color: #404bbf;
+}
+
+.contacts-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.contacts-tel:hover, .contacts-tel:focus {
+    color: #404bbf;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    background-color: #2e2f42;
+}
+
+.hero-button {
+
+}
+
+h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
