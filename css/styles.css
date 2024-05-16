@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #fafafa;
+    color: #fff;
     ;
 }
 
@@ -12,87 +12,89 @@ a {
     text-decoration: none;
 }
 
-.nav-logo {
 
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
-.nav-studio {
+.nav-logo-color, .footer-logo-color {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.nav-studio, .nav-portfolio, .nav-contacts {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #2e2f42;
-}
-
-.nav-studio:hover, .nav-studio:focus {
-        color: #404bbf;
 }
 
 .nav-studio:active { 
         color: #404bbf;
 }
 
-.nav-portfolio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2e2f42;
+.contacts {
+    font-family: "Roboto", sans-serif;
 }
 
-.nav-portfolio:hover, .nav-portfolio:focus {
-    color: #404bbf;
-}
-
-.nav-contacts {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2e2f42;
-}
-
-.nav-contacts:hover, .nav-contacts:focus {
-    color: #404bbf;
-}
-
-.contacts-malito {
+.contacts-malito, .contacts-tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
 }
 
-.contacts-malito:hover, .contacts-malito:focus {
-    color: #404bbf;
-}
-
-.contacts-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-
-.contacts-tel:hover, .contacts-tel:focus {
+.contacts-malito:hover, .contacts-malito:focus,
+.contacts-tel:hover, .contacts-tel:focus,
+.nav-contacts:hover, .nav-contacts:focus, 
+.nav-portfolio:hover, .nav-portfolio:focus, 
+.nav-studio:hover, .nav-studio:focus
+ {
     color: #404bbf;
 }
 
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+}
+
+.hero, .footer {
     background-color: #2e2f42;
 }
 
 .hero-button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
 
+.our-team {
+    background-color: #f4f4fd;
 }
 
 h2 {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -114,3 +116,15 @@ p {
         color: #434455;
 }
 
+.footer-logo {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #f4f4fd;
+}
+
+.footer-text {
+        color: #f4f4fd;
+}
