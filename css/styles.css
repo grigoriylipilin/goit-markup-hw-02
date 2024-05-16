@@ -15,10 +15,10 @@ a {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.17;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #f4f4fd;
+    color: #ffffff;
 }
 
 .hero,
@@ -44,7 +44,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -60,7 +60,8 @@ a {
     color: #2e2f42;
 }
 
-.nav-studio, .nav-portfolio, .nav-contacts {
+.nav-studio, .nav-portfolio, 
+.nav-contacts {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -94,7 +95,11 @@ a {
 }
 
 .our-team {
+    text-transform: capitalize;
     background: #f4f4fd;
+}
+.team-list-points {
+    background-color: #FFFFFF;
 }
 
 .class-our-portfolio {
@@ -107,10 +112,6 @@ a {
         color: #2e2f42;
     }
 
-    .team-list {
-        background-color: #FFFFFF;
-    }
-
 h2 {
         font-weight: 700;
         font-size: 36px;
@@ -120,7 +121,12 @@ h2 {
         color: #2e2f42;
 }
 
-h3 {
+h3, .strategy-title, .punctuality-title,
+.diligence-title, .technologies-title,
+.team-mark, .team-tom, .team-camila,
+.team-daniel, .portfolio-bank, .portfolio-cash,
+.portfolio-meditation, .portfolio-taxi, 
+.portfolio-screen, .portfolio-online {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -129,7 +135,12 @@ h3 {
 }
 
 p, .first-title, .second-title,
- .third-title, .fourth-title {
+ .third-title, .fourth-title, .strategy-text,
+ .punctuality-text, .diligence-text, .technologies-text
+ .first-title, .second-title, .third-title, 
+ .fourth-title, .first-type, .second-type,
+ .third-type, .fourth-type, .fifth-type,
+ .sixth-type {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
