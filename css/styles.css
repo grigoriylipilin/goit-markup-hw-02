@@ -60,7 +60,7 @@ a {
     color: #2e2f42;
 }
 
-.menu .nav-studio {
+.nav-studio {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -68,7 +68,7 @@ a {
         color: #2e2f42;
 }
 
-.menu .nav-portfolio {
+.nav-portfolio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -76,7 +76,7 @@ a {
     color: #2e2f42;
 }
 
-.menu .nav-contacts {
+.nav-contacts {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
